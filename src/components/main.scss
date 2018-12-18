@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Oswald');
+$back: rgb(255, 255, 255);
+
+html,body{
+    margin: 0;
+    background-image: url('https://wallpapermemory.com/uploads/791/hunter-x-hunter-wallpaper-full-hd-1080p-10926.jpg');
+    #root{
+      z-index: -2;
+      position:absolute;
+      top:0;
+      left:0;
+      bottom:0;
+      right:0;
+      height:100%;
+      width:100%;
+      font-family: Oswald,Georgia, 'Times New Roman', Times, serif;
+     
+
+        #quote-box{
+          text-align: center;
+          padding: 30px;
+          margin: auto;
+          margin-bottom: 20px;
+          margin-top: 100px;
+          width: 40%;
+          border-radius: 5px;
+          background-color: $back;
+          
+          h1{
+              font-family: Anton,Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+              padding: 10px;
+              color: rgb(202, 37, 37);
+              margin-top: 5px;
+          }
+
+          #text{
+              padding: 10px;
+              margin: 5px;
+              font-size: 18px;
+          }
+          
+          #author{
+            padding: 10px;
+            margin: 5px;
+            font-size: 18px;
+            margin-bottom: 15px;
+          }
+
+          #new-quote{
+              padding: 8px;
+              margin-top: 15px;
+              margin: 10px;
+          }
+
+          #tweet-quote{
+              padding: 8px;
+              margin-top: 15px;
+              margin: 10px;
+          }
+
+          
+
+      }
+
+      .backgrounder{
+          background-color: pink;
+          z-index: -1;
+      }
+
+      #myVideo {
+        position: fixed;
+        right: 0;
+        bottom: 0;
+        min-width: 100%; 
+        min-height: 100%;
+      }
+      
+    }
+
+}
+
+
+
